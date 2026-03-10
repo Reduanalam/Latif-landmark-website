@@ -1,0 +1,18 @@
+/* src/components/ImageSlider.css */
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.slider-track {
+  display: flex;
+  width: 100%;
+}
+
+.slider-img {
+  width: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+}
