@@ -20,7 +20,7 @@ export default function PlotMap() {
             <span className="plotmap__legend-item plotmap__legend--sold">Sold</span>
           </div>
           <iframe
-          src="https://roaring-pika-cfd836.netlify.app/"
+          src="https://steady-chimera-4d031e.netlify.app/"
             // src="https://spiffy-monstera-a62e75.netlify.app/"
             title="Latif Landmark Plot Distribution Map"
             className="plotmap__iframe"
