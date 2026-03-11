@@ -45,8 +45,8 @@ export default function Footer() {
           <div className="footer__col">
             <h4 className="footer__col-title">Plot Locations</h4>
             <ul className="footer__links">
-              <li>📍Noikahon, Araihazar, Narayanganj</li>
-              <li>📍H-777-778, Block-N, Bashundhara R/A, Dhaka</li>
+              <li><FaMapMarkerAlt /> Noikahon, Araihazar, Narayanganj</li>
+              <li><FaMapMarkerAlt /> H-777-778, Block-N, Bashundhara R/A, Dhaka</li>
               <h4 className="footer__col-title">Office Locations</h4>
               <li>1/1/D/1 North Jatrabari, Dhaka</li>
             </ul>
@@ -56,10 +56,9 @@ export default function Footer() {
           <div className="footer__col">
             <h4 className="footer__col-title">Contact Info</h4>
             <ul className="footer__contact-list">
-              <li><FaPhoneAlt /> <a href="tel:01711760509">01711-760509</a></li>
+              <li><FaPhoneAlt /> <a href="tel:01711760509">01711-760508</a></li>
               <li><FaPhoneAlt /> <a href="tel:01711760509">01711760509</a></li>
               <li><FaPhoneAlt /> <a href="tel:01712823022">01712823022</a></li>
-              <li><FaPhoneAlt /> <a href="tel:01711760508">01711760508</a></li>
               <li><FaEnvelope /> <a href="mailto:info.latiflandmark@gmail.com">info.latiflandmark@gmail.com</a></li>
               <li><FaMapMarkerAlt /> Office: 1/1/D/1 North Jatrabari, Bibir Bagicha, Dhaka</li>
             </ul>

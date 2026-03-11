@@ -29,7 +29,7 @@ export const properties = [
   },
     {
     id: 3,
-    title: "Araihazar Green Paradise Plot-Block B",
+    title: " Latif Sunrise province-Block C",
     location: "Noikahon, Araihazar, Narayanganj",
     status: "Available",
     images: [

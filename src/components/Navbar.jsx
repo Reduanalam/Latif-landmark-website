@@ -37,8 +37,8 @@ export default function Navbar() {
           <a href="#home" className="navbar__logo" onClick={() => setOpen(false)}>
             <img src={logo} alt="Latif Landmark Ltd." />
            <div className="navbar__brand-text">
-                  <h2 className="navbar__brand-name">Latif Landmark Ltd</h2>
-                 <p className="navbar__brand-tag">Mark Your Space</p>
+                  <h1 className="navbar__brand-name">Latif Landmark Ltd</h1>
+                  
 </div>
           </a>
 
