@@ -69,7 +69,18 @@
 .modal-body{ padding:20px; }
 .modal-title{ margin:10px 0; }
 .modal-location{ color:#666; margin-bottom:10px; }
- 
+
+/* Meta */
+.modal-meta{
+  display:flex;
+  gap:20px;
+  margin:15px 0;
+}
+.modal-meta-item{
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
 .modal-meta-label{ display:block; font-size:12px; color:#777; }
 .modal-meta-value{ font-weight:bold; }
 
@@ -82,37 +93,6 @@
   justify-content:center; /* center horizontally */
   margin-top:25px;
 }
-
-
-
-
-
-
-.modal-slider-wrap {
-  position: relative;
-}
-
-.modal-status-badge {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  padding: 6px 10px;
-  font-size: 12px;
-  border-radius: 6px;
-  color: white;
-}
-
-.badge-available {
-  background: #22c55e;
-}
-
-.badge-sold {
-  background: #ef4444;
-}
-
-
-
-
 
 /* Big WhatsApp button */
 .modal-btn-big{

@@ -21,6 +21,7 @@ export default function PropertyModal({ property, onClose }) {
     plotNo
   } = property;
 
+  // Lock body scroll + ESC key
   useEffect(() => {
     document.body.style.overflow = "hidden";
 
@@ -47,15 +48,9 @@ export default function PropertyModal({ property, onClose }) {
           <FaTimes />
         </button>
 
-        {/* Image Slider */}
+        {/* Slider */}
         <div className="modal-slider-wrap">
-          <ImageSlider
-            images={images}
-            alt={title}
-            height="280px"
-            autoPlay
-          />
-
+          <ImageSlider images={images} alt={title} height="280px" />
           <span
             className={`modal-status-badge ${
               status === "Available" ? "badge-available" : "badge-sold"
@@ -67,12 +62,7 @@ export default function PropertyModal({ property, onClose }) {
 
         {/* Content */}
         <div className="modal-body">
-
-          {plotNo && (
-            <span className="modal-plotno">
-              Plot No: {plotNo}
-            </span>
-          )}
+          {plotNo && <span className="modal-plotno">Plot No: {plotNo}</span>}
 
           <h2 className="modal-title">{title}</h2>
 
@@ -80,7 +70,15 @@ export default function PropertyModal({ property, onClose }) {
             <FaMapMarkerAlt /> {location}
           </p>
 
-          
+          <div className="modal-meta">
+            <div className="modal-meta-item">
+              <FaRulerCombined />
+              <div>
+                <span className="modal-meta-label">Size</span>
+                <span className="modal-meta-value">{size}</span>
+              </div>
+            </div>
+          </div>
 
           <p className="modal-desc">{description}</p>
 
@@ -95,7 +93,6 @@ export default function PropertyModal({ property, onClose }) {
               <FaWhatsapp /> WhatsApp
             </a>
           </div>
-
         </div>
       </div>
     </div>

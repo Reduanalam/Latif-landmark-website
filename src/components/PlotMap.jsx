@@ -21,7 +21,7 @@ export default function PlotMap() {
           </div>
           <iframe
           src="https://verdant-lokum-67b489.netlify.app/"
-            // src="https://spiffy-monstera-a62e75.netlify.app/"
+           
             title="Latif Landmark Plot Distribution Map"
             className="plotmap__iframe"
             loading="lazy"

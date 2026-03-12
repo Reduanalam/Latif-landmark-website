@@ -78,7 +78,20 @@
   margin-bottom: 1rem;
   line-height: 1.5;
 }
- 
+.prop-card__meta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+.prop-card__meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--navy-mid);
+}
 .prop-card__btn {
   display: flex;
   align-items: center;

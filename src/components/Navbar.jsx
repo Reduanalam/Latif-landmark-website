@@ -8,6 +8,7 @@ const navLinks = [
   { label: 'Home', href: '#home' },
   { label: 'Properties', href: '#properties' },
   { label: 'Plot Map', href: '#plotmap' },
+  { label: 'Reviews', href: '#reviews' },
   { label: 'About Us', href: '#about' },
   { label: 'Contact', href: '#contact' },
 ];
@@ -37,8 +38,8 @@ export default function Navbar() {
           <a href="#home" className="navbar__logo" onClick={() => setOpen(false)}>
             <img src={logo} alt="Latif Landmark Ltd." />
            <div className="navbar__brand-text">
-                  <h1 className="navbar__brand-name">Latif Landmark Ltd</h1>
-                  
+                  <h2 className="navbar__brand-name">Latif Landmark Ltd</h2>
+                 <p className="navbar__brand-tag">Mark Your Space</p>
 </div>
           </a>
 
