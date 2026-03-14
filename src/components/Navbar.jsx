@@ -38,8 +38,8 @@ export default function Navbar() {
           <a href="#home" className="navbar__logo" onClick={() => setOpen(false)}>
             <img src={logo} alt="Latif Landmark Ltd." />
            <div className="navbar__brand-text">
-                  <h2 className="navbar__brand-name">Latif Landmark Ltd</h2>
-                 <p className="navbar__brand-tag">Mark Your Space</p>
+                  <h1 className="navbar__brand-name">Latif Landmark Ltd</h1>
+                  
 </div>
           </a>
 
@@ -104,8 +104,8 @@ export default function Navbar() {
           >
             Book a Plot
           </a>
-          <a href="tel:01711760509" className="mobile-drawer__phone">
-            <FaPhoneAlt /> 01711-760509
+          <a href="tel:01568540290" className="mobile-drawer__phone">
+            <FaPhoneAlt /> 01568540290
           </a>
         </div>
       </div>

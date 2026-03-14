@@ -62,7 +62,7 @@ export default function PropertyModal({ property, onClose }) {
 
         {/* Content */}
         <div className="modal-body">
-          {plotNo && <span className="modal-plotno">Plot No: {plotNo}</span>}
+         
 
           <h2 className="modal-title">{title}</h2>
 
@@ -72,11 +72,7 @@ export default function PropertyModal({ property, onClose }) {
 
           <div className="modal-meta">
             <div className="modal-meta-item">
-              <FaRulerCombined />
-              <div>
-                <span className="modal-meta-label">Size</span>
-                <span className="modal-meta-value">{size}</span>
-              </div>
+             
             </div>
           </div>
 

@@ -48,14 +48,7 @@ color:#fff;
 line-height:1.2;
 margin:0;
 }
-
-.navbar__brand-tag{
-font-size:0.75rem;
-color:var(--gold-light);
-letter-spacing:0.08em;
-margin:0;
-text-transform:uppercase;
-}
+ 
 
 /* Desktop nav links */
 .navbar__links {

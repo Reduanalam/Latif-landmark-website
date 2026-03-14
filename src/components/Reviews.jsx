@@ -97,7 +97,7 @@ export default function Reviews() {
   }
 
   return (
-    <section className="reviews-section">
+    <section className="reviews-section" id="reviews">
       <div className="reviews-header">
         <p className="section-label">Client Testimonials</p>
         <h2 className="section-title">What Our Clients Say About Us</h2>

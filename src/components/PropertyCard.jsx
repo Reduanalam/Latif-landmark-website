@@ -44,11 +44,6 @@ export default function PropertyCard({ property, onClick }) {
           <FaMapMarkerAlt /> {location}
         </p>
 
-        <div className="prop-card__meta">
-          <span className="prop-card__meta-item">
-            <FaRulerCombined /> {size}
-          </span>
-        </div>
 
         <button className="prop-card__btn">
           <FaEye /> View Details
